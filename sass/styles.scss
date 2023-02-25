@@ -1,0 +1,17 @@
+/* scss styles */
+/* */
+
+//Core Partials
+@import 'variables';
+@import 'animations';
+@import 'normalize';
+
+
+//Import modules
+@import 'header';
+@import 'hero';
+@import 'main';
+@import 'learn';
+@import 'footer';
+
+
