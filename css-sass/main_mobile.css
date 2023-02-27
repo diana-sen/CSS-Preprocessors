@@ -1,0 +1,66 @@
+@media only screen and (max-width: 768px) {
+  .main {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: unset;
+    padding-bottom: 100px;
+  }
+  .main .main__block {
+    width: 100%;
+    margin: unset;
+  }
+  .main .main__block h3 {
+    text-align: left;
+    padding-left: 27px;
+  }
+  .main .main__block p {
+    font-family: var(--main-font-fam);
+    font-style: normal;
+    font-weight: var(--regular-font-weight);
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    color: var(--gray-color);
+  }
+  .main .main__block p .p1 {
+    width: auto;
+    padding-left: 27px;
+    padding-right: 23px;
+  }
+  .main .main__block p .p2 {
+    width: auto;
+    padding-left: 27px;
+    padding-right: 23px;
+  }
+  .main__block--title h2 {
+    display: block;
+    text-align: left;
+    padding-left: 27px;
+    margin: unset;
+  }
+  .main__block--title br {
+    display: none;
+  }
+  .main__block--title h3 {
+    text-align: left;
+    padding-left: 27px;
+  }
+  .grid-container {
+    width: 100%;
+    display: block;
+    margin: unset;
+    padding-left: unset;
+    padding-right: unset;
+  }
+  .btn {
+    padding-top: 24px;
+    padding-left: 27px;
+    text-align: left;
+  }
+  .btn--read {
+    padding: 5px 17px;
+    border: none;
+    margin: unset;
+  }
+}/*# sourceMappingURL=main_mobile.css.map */

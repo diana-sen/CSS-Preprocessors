@@ -2,16 +2,26 @@
 /* */
 
 //Core Partials
-@import 'variables';
-@import 'animations';
 @import 'normalize';
+@import 'variables';
+
+
 
 
 //Import modules
+@import 'animation';
 @import 'header';
 @import 'hero';
+@import 'header_mobile';
 @import 'main';
-@import 'learn';
-@import 'footer';
+@import 'main_mobile';
 
 
+//@import 'learn';
+//@import 'footer';
+
+body {  
+    margin: 0px;
+    padding: 0px;
+    background: #EEE;
+}
