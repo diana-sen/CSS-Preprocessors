@@ -9,11 +9,11 @@
     padding-bottom: 80px;
 }
 
-.main-block {
+.main__block {
     text-align: center;
 }
 
-.main-title h2 {
+.main__block--title h2 {
     display: inline;
     text-align: center;
     font-family: var(--oswald-font);
@@ -25,7 +25,7 @@
     color: #464547;
 }
 
-.main-block h3 {
+.main__block h3 {
     font-family: var(--main-font-fam);
     font-style: normal;
     font-weight: var(--regular-font-weight);
@@ -43,7 +43,7 @@
     padding-right: 10%;
 }
 
-.main-block p {
+.main__block p {
     font-family: var(--main-font-fam);
     font-style: normal;
     font-weight: var(--regular-font-weight);
@@ -53,7 +53,7 @@
     color: var(--gray-color);
 }
 
-.btn-read {
+.btn--read {
     border-radius: 18px;
     margin-top: 20px;
     padding: 5px 17px;
@@ -70,7 +70,7 @@
     transform-origin: center left;
 }
 
-.btn-read:hover {    
+.btn--read:hover {    
     transform: rotate(13deg);
 }
 
@@ -84,23 +84,23 @@
         padding-bottom: 100px;
     }
 
-    .main-block{
+    .main__block{
         width: 100%;
         margin: unset;
     }
 
-    .main-title h2 {
+    .main__block--title h2 {
         display: block;
         text-align: left;
         padding-left: 27px;
         margin: unset;
     }
 
-    .main-title br{
+    .main__block--title br{
         display: none;
     }
     
-    .main-block h3 {
+    .main__block h3 {
         text-align: left;
         padding-left: 27px;
     }
@@ -113,7 +113,7 @@
         padding-right: unset;
     }
 
-    .main-block p {
+    .main__block p {
         font-family: var(--main-font-fam);
         font-style: normal;
         font-weight: var(--regular-font-weight);
@@ -142,7 +142,7 @@
         text-align: left;
     }
 
-    .btn-read {
+    .btn--read {
         padding: 5px 17px;
         border: none;
         margin: unset;

@@ -8,11 +8,11 @@
     <link rel="stylesheet" href='CSS/normalize.css'>
     <link rel="stylesheet" href='CSS/desktop.css'>
     <link rel="stylesheet" href='CSS/header.css'>
-    <link rel="stylesheet" href='CSS/heroStyles.css'>
-    <link rel="stylesheet" href='CSS/mainStyles.css'>
-    <link rel="stylesheet" href='CSS/learn-moreStyles.css'>
-    <link rel="stylesheet" href='CSS/footerStyles.css'>
-    <link rel="stylesheet" href='css-sass/styles.scss'>
+    <link rel="stylesheet" href='CSS/hero.css'>
+    <link rel="stylesheet" href='CSS/main.css'>
+    <link rel="stylesheet" href='CSS/learn-more.css'>
+    <link rel="stylesheet" href='CSS/footer.css'>
+   <!--  <link rel="stylesheet" href='css-sass/styles.scss'> -->
     
 </head>
 </head>
@@ -25,21 +25,22 @@
         <div class="header-animation-dots"></div>
         <div class="container-hero">
             <section class="hero">
-                <div class="hero_block">
-                    <img class="logo1" src="assets\Logo.svg"/>
+                <div class="hero__block">
+                    <img class="hero__block__logo1" src="assets\Logo.svg"/>
                     <h1>Your Headline<br>Here</h1>
                     <h2>Lorem ipsum dolor sit amet, consectetur<br>adispiscing elit sed do eiusmod.</h2>
                 </div>
             </section>
         </div>
+        
         <header>
-            <div class="header-menu">
-                <div class="title-project">
+            <div class="header-container">
+                <div class="header-container__title">
                     <a href="#">Project</a>
                 </div>
                 
-                <nav class="menu">
-                    <ul class="nav-list">
+                <nav class="nav__menu">
+                    <ul class="nav__list">
                         <li><a href="#">Projects</a></li>
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Stories</a></li>
@@ -60,8 +61,8 @@
     </div>
 
     <main class="main">
-        <div class="main-block">
-            <div class="main-title">
+        <div class="main__block">
+            <div class="main__block--title">
                 <h2>This is the </h2>
                 <h2>Section Headline,</h2><br>
                 <h2>Continues to</h2>
@@ -73,29 +74,29 @@
                 <p class="p2">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
             <div class="btn">
-                <button class="btn-read" type="button">Read more</button>
+                <button class="btn--read" type="button">Read more</button>
             </div>  
             
         </div>    
     </main>
 
-    <article class="learn-more">
-        <div class="learn-more-block">
+    <article class="learn">
+        <div class="learn__block">
             <h2>Learn more<br>about our culture...</h2>
-            <button class="btn-play" type="button"><span class="play-icon">&#9654</span></button>
+            <button class="learn__btn-play" type="button"><span class="learn__btn-play--icon">&#9654</span></button>
             <h3>Duis aute irure dolor in reprehenderit<br>in voluptate velit esse cillum dolore eu<br>fugiat nulla pariatur.</h3>
         </div>
     </article>
    
     <footer class="footer">
-        <div class="footer-info-grid-container">
+       <div class="footer__container"> 
             <div class="grid-item-1 footer-logo">
-                <img class="small-logo" src="assets\SmallLogo.svg"/><span>Project</span>
+                <img class="footer-logo__small" src="assets\SmallLogo.svg"/><span>Project</span>
             </div>
-            <address class="grid-item-2 address">
+            <address class="grid-item-2 footer__address">
                 <i>123 Street,<br>Anytown, USA 12345</i>
             </address>
-            <div class="grid-item-3 email">
+            <div class="grid-item-3 footer__email">
                 <a href="mailto: hello@website.com">hello@website.com</a>
             </div>
             <div class="grid-item-4">&copy; 2021 Project. All rights reserved </div>
