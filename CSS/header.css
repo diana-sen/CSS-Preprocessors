@@ -4,7 +4,7 @@
 }
 
 /* Animation styles */
-.header-background, .header-animation-lines, .header-animation-dots {
+.header__background, .header__animation--lines, .header__animation--dots {
     position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,7 +13,7 @@
     height: 822px;
 }
 
-.header-background {
+.header__background {
     background-image: url("../assets/Desktop_Backgrounds_1920x1200_6.png");
 }
 
@@ -22,7 +22,7 @@
     to {opacity: 1;}
 }
 
-.header-animation-lines {
+.header__animation--lines {
     background-image: url("../assets/header-animation-lines-dots.png");
     animation: lines-appearing 2s cubic-bezier(0.5, -0.19, 1, 1) infinite alternate;
 }
@@ -32,7 +32,7 @@
     100% {transform: scale(1.07, 1.07); translate: -3%;}
 }
 
-.header-animation-dots {
+.header__animation--dots {
     background-image: url("../assets/header-animation-dots.png");
     animation: dotsMoving 2.5s ease-in-out infinite alternate;
 }
@@ -45,7 +45,7 @@ header{
     display: flex;
     align-items: center;
     justify-content:center;
-    position: relative;
+    position: absolute;
 }
 
 .header-container {
@@ -139,16 +139,16 @@ a:hover {
         margin-bottom: 6px;
     }
 
-    .header-background, .header-animation-lines, .header-animation-dots {
+    .header__background, .header__animation--lines, .header__animation--dots {
         background-position-x: right;
     }
 
-    .header-animation-lines {
+    .header__animation--lines {
         background-image: url("../assets/header-animation-lines-dots.png");
         animation: lines-appearing 2.5s cubic-bezier(0.5, -0.19, 1, 1) infinite alternate;
     }
         
-    .header-animation-dots {
+    .header__animation--dots {
         background-image: url("../assets/header-animation-dots.png");
         animation: dotsMoving 3s ease-in-out infinite alternate;
     }
