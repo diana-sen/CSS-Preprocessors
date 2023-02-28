@@ -1,4 +1,5 @@
-@import 'variables';
+@use 'variables' as v;
+
 .container-hero{
     position: absolute;
     width: 100%;
@@ -31,19 +32,19 @@
 
 .hero__block h1 {
     text-align: center;
-    font-family: $oswald-font;
+    font-family: v.$oswald-font;
     font-style: normal;
-    font-weight: $bolder-font-weight;
+    font-weight: v.$bolder-font-weight;
     font-size: 48px;
     line-height: 64px;
     /* or 133% */
-    color: $white-color;
+    color: v.$white-color;
 }
 
 .hero__block h2 {
-    font-family: $main-font-fam;
+    font-family: v.$main-font-fam;
     font-style: normal;
-    font-weight: $regular-font-weight;
+    font-weight: v.$regular-font-weight;
     font-size: 24px;
     line-height: 32px;
     text-align: center;

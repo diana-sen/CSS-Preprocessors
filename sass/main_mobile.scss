@@ -1,3 +1,5 @@
+@use 'variables' as v;
+
 @media only screen and (max-width: 768px) {
 
     .main {
@@ -17,13 +19,13 @@
             }
 
             p {
-                font-family: $main-font-fam;
+                font-family: v.$main-font-fam;
                 font-style: normal;
-                font-weight: $regular-font-weight;
+                font-weight: v.$regular-font-weight;
                 font-size: 16px;
                 line-height: 22px;
                 text-align: left;
-                color: $gray-color; 
+                color: v.$gray-color; 
     
                 width: auto;
                 padding-left: 27px;

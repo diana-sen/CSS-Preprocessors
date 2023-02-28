@@ -1,4 +1,5 @@
-@import 'variables';
+@use 'variables' as v;
+
 .container-header-section{
     width: 100%;
     height: 822px; 
@@ -11,6 +12,7 @@ header{
     align-items: center;
     justify-content:center;
     position: absolute;
+    z-index: 2;  
 
 
     .header-container {
@@ -20,10 +22,10 @@ header{
         align-items: center; 
         
         a {
-            font-family: $main-font-fam;
+            font-family: v.$main-font-fam;
             font-style: normal;
             text-transform: uppercase;
-            color: $white-color;
+            color: v.$white-color;
         }
     }
 
@@ -34,7 +36,7 @@ header{
     width: 20%;
 
     a {
-        font-weight: $bolder-font-weight;
+        font-weight: v.$bolder-font-weight;
         font-size: 20px;
         line-height: 16px;
         letter-spacing: 0.1em;
@@ -48,6 +50,7 @@ header{
     height: 22px; 
     width: 50%;
     padding-left: 5%; 
+
 }
 
 
@@ -58,7 +61,7 @@ header{
     list-style: none;
     
     font-style: normal;
-    font-weight: $regular-font-weight;
+    font-weight: v.$regular-font-weight;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.2em;
@@ -70,14 +73,17 @@ header{
         flex-grow: 1;
         flex-shrink: 1;  
         
-        a:link {
-            text-decoration: none; 
+        a {
+            &:link {
+                text-decoration: none; 
+            }
+            
+            &:hover { 
+                text-decoration:underline;
+                text-underline-offset: 6px;
+            }
         }
-        
-        a:hover { 
-            text-decoration:underline;
-            text-underline-offset: 6px;
-        }
+       
     }
 }
 

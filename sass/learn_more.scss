@@ -1,4 +1,4 @@
-
+@use 'variables' as v;
 .learn {
     width: 100%;
     height: 666px;
@@ -14,22 +14,22 @@
 
         h2 {
             text-align: center;
-            font-family: $oswald-font;
+            font-family: v.$oswald-font;
             font-style: normal;
-            font-weight: $bolder-font-weight;
+            font-weight: v.$bolder-font-weight;
             font-size: 48px;
             line-height: 64px;
-            color: $white-color;
+            color: v.$white-color;
         }
 
         h3 {
-            font-family: $main-font-fam;
+            font-family: v.$main-font-fam;
             font-style: normal;
-            font-weight: $regular-font-weight;
+            font-weight: v.$regular-font-weight;
             font-size: 24px;
             line-height: 32px;
             text-align: center;
-            color: $white-color;
+            color: v.$white-color;
         }
     }
 }
@@ -40,7 +40,7 @@
     width: 150px;
     border: none;
     border-radius: 50%;
-    background-color: $blue-button-color;
+    background-color: v.$blue-button-color;
     color: white;    
     transition: background-color .8s ease-out,
                 color .4s,
@@ -48,7 +48,7 @@
     
     &:hover {    
         background-color: white;    
-        color: $blue-button-color;
+        color: v.$blue-button-color;
         transform: scale(0.95);
     }
 

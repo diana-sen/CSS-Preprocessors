@@ -1,3 +1,4 @@
+@use 'variables' as v;
 
 .main {
     width: 100%;
@@ -12,23 +13,23 @@
         text-align: center;
 
         h3 {
-            font-family: $main-font-fam;
+            font-family: v.$main-font-fam;
             font-style: normal;
-            font-weight: $regular-font-weight;
+            font-weight: v.$regular-font-weight;
             font-size: 24px;
             line-height: 32px;
             text-align: center;
-            color: $gray-color;
+            color: v.$gray-color;
          }
 
         p {
-            font-family: $main-font-fam;
+            font-family: v.$main-font-fam;
             font-style: normal;
-            font-weight: $regular-font-weight;
+            font-weight: v.$regular-font-weight;
             font-size: 16px;
             line-height: 22px;
             text-align: left;
-            color: $gray-color;
+            color: v.$gray-color;
         }
     }
 }
@@ -37,9 +38,9 @@
     h2 {
     display: inline;
     text-align: center;
-    font-family: $oswald-font;
+    font-family: v.$oswald-font;
     font-style: normal;
-    font-weight: $bolder-font-weight;
+    font-weight: v.$bolder-font-weight;
     font-size: 48px;
     line-height: 64px;
     /* or 133% */
@@ -59,14 +60,14 @@
     border-radius: 18px;
     margin-top: 20px;
     padding: 5px 17px;
-    background: $blue-button-color;
+    background: v.$blue-button-color;
     border: none;
-    font-family: $oswald-font;
+    font-family: v.$oswald-font;
     font-size: 14px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.1em;
-    color: $white-color;
+    color: v.$white-color;
     text-transform: uppercase;
     transition: .3s ease-in;    
     transform-origin: center left;

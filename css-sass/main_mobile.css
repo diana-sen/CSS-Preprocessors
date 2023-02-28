@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro&display=swap");
+/* fonts */
+/* colors */
 @media only screen and (max-width: 768px) {
   .main {
     width: 100%;
@@ -15,20 +18,13 @@
     padding-left: 27px;
   }
   .main .main__block p {
-    font-family: var(--main-font-fam);
+    font-family: "Source Sans Pro";
     font-style: normal;
-    font-weight: var(--regular-font-weight);
+    font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     text-align: left;
-    color: var(--gray-color);
-  }
-  .main .main__block p .p1 {
-    width: auto;
-    padding-left: 27px;
-    padding-right: 23px;
-  }
-  .main .main__block p .p2 {
+    color: #666;
     width: auto;
     padding-left: 27px;
     padding-right: 23px;

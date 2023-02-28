@@ -1,27 +1,20 @@
 /* scss styles */
-/* */
 
 //Core Partials
-@import 'normalize';
-@import 'variables';
-
-
+@use 'variables';
+@use 'normalize';
 
 
 //Import modules
-@import 'animation';
-@import 'header';
-@import 'hero';
-@import 'header_mobile';
-@import 'main';
-@import 'main_mobile';
-@import 'learn_more';
-@import 'footer';
-@import 'footer_mobile';
-
-
-//@import 'learn';
-//@import 'footer';
+@use 'animation';
+@use 'header';
+@use 'hero';
+@use 'header_mobile';
+@use 'main';
+@use 'main_mobile';
+@use 'learn_more';
+@use 'footer';
+@use 'footer_mobile';
 
 body {  
     margin: 0px;
