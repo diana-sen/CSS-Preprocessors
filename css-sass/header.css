@@ -35,6 +35,7 @@ header .header-container a {
   font-size: 20px;
   line-height: 16px;
   letter-spacing: 0.1em;
+  text-decoration: none;
 }
 
 .nav__menu {
@@ -62,7 +63,7 @@ header .header-container a {
 .nav__list li a:link {
   text-decoration: none;
 }
-.nav__list li:hover {
+.nav__list li a:hover {
   text-decoration: underline;
   text-underline-offset: 6px;
 }/*# sourceMappingURL=header.css.map */

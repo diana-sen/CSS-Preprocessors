@@ -1,0 +1,1 @@
+{"version":3,"sources":["../sass/footer_mobile.scss","footer_mobile.css"],"names":[],"mappings":"AAAA;EACI;IACI,aAAA;ECCN;EDEE;IACI,0BAAA;IACA,aAAA;IACA,mCAAA;IACA,0BAAA;ECAN;EDEM;IACI,gBAAA;IACA,aAAA;IACA,uBAAA;ECAV;EDGM;IACI,gBAAA;ECDV;EDIM;IACG,kBAAA;ECFT;EDKM;IACI,aAAA;IACA,mBAAA;ECHV;EDMM;IACI,aAAA;ECJV;AACF","file":"footer_mobile.css"}
