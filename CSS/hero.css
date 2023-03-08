@@ -12,21 +12,21 @@
     justify-content: center;
 }
 
-.hero_block {    
+.hero__block {    
     text-align: center;
 }
 
-.logo1 {
+.hero__block__logo1 {
     width: 63px;
     height: 63px;
     transition: 0.5s cubic-bezier(0.9,-0.03, 0.03, 1.15);
 }
 
-.logo1:hover {    
+.hero__block__logo1:hover {    
     transform: scale(1.5) rotateY(180deg);
 }
 
-.hero_block h1 {
+.hero__block h1 {
     text-align: center;
     font-family: var(--oswald-font);
     font-style: normal;
@@ -37,7 +37,7 @@
     color: var(--white-color);
 }
 
-.hero_block h2 {
+.hero__block h2 {
     font-family: var(--main-font-fam);
     font-style: normal;
     font-weight: var(--regular-font-weight);

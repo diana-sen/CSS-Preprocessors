@@ -1,0 +1,36 @@
+@media only screen and (max-width: 768px) {
+  .nav__menu {
+    display: none;
+  }
+  /* Optional task */
+  header {
+    height: 13%;
+  }
+  .header-container {
+    padding-left: 8%;
+    padding-right: 8%;
+    justify-content: space-between;
+  }
+  .app-header__nav-menu-button {
+    margin-right: -15px;
+  }
+  .app-header__nav-menu-button .app-header__nav-menu-button-icon span:nth-child(n) {
+    display: block;
+    background: white;
+    height: 3px;
+    width: 1.7em;
+    position: relative;
+    margin-bottom: 6px;
+  }
+  .header__background, .header__animation--lines, .header__animation--dots {
+    background-position-x: right;
+  }
+  .header__animation--lines {
+    background-image: url("../assets/header-animation-lines-dots.png");
+    animation: lines-appearing 2.5s cubic-bezier(0.5, -0.19, 1, 1) infinite alternate;
+  }
+  .header__animation--dots {
+    background-image: url("../assets/header-animation-dots.png");
+    animation: dotsMoving 3s ease-in-out infinite alternate;
+  }
+}/*# sourceMappingURL=mobile.css.map */

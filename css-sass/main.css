@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro&display=swap");
+/* fonts */
+/* colors */
+.main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.main .main__block {
+  text-align: center;
+}
+.main .main__block h3 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #666;
+}
+.main .main__block p {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+  color: #666;
+}
+
+.main__block--title h2 {
+  display: inline;
+  text-align: center;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* or 133% */
+  color: #464547;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 83px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.btn--read {
+  border-radius: 18px;
+  margin-top: 20px;
+  padding: 5px 17px;
+  background: #39C2D7;
+  border: none;
+  font-family: "Oswald";
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFF;
+  text-transform: uppercase;
+  transition: 0.3s ease-in;
+  transform-origin: center left;
+}
+.btn--read:hover {
+  transform: rotate(13deg);
+}/*# sourceMappingURL=main.css.map */

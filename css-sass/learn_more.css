@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro&display=swap");
+/* fonts */
+/* colors */
+.learn {
+  width: 100%;
+  height: 666px;
+  background: url("../assets/learn-more.jfif");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.learn .learn__block {
+  text-align: center;
+}
+.learn .learn__block h2 {
+  text-align: center;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #FFF;
+}
+.learn .learn__block h3 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFF;
+}
+
+.learn__btn-play {
+  height: 150px;
+  width: 150px;
+  border: none;
+  border-radius: 50%;
+  background-color: #39C2D7;
+  color: white;
+  transition: background-color 0.8s ease-out, color 0.4s, transform 0.8s;
+}
+.learn__btn-play:hover {
+  background-color: white;
+  color: #39C2D7;
+  transform: scale(0.95);
+}
+.learn__btn-play .learn__btn-play--icon {
+  position: relative;
+  font-size: 70px;
+  width: 55px;
+  height: 70px;
+  left: 7px;
+}/*# sourceMappingURL=learn_more.css.map */

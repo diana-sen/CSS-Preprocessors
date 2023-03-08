@@ -1,0 +1,78 @@
+@use 'variables' as v;
+
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    .main__block {
+        text-align: center;
+
+        h3 {
+            font-family: v.$main-font-fam;
+            font-style: normal;
+            font-weight: v.$regular-font-weight;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            color: v.$gray-color;
+         }
+
+        p {
+            font-family: v.$main-font-fam;
+            font-style: normal;
+            font-weight: v.$regular-font-weight;
+            font-size: 16px;
+            line-height: 22px;
+            text-align: left;
+            color: v.$gray-color;
+        }
+    }
+}
+
+.main__block--title {
+    h2 {
+    display: inline;
+    text-align: center;
+    font-family: v.$oswald-font;
+    font-style: normal;
+    font-weight: v.$bolder-font-weight;
+    font-size: 48px;
+    line-height: 64px;
+    /* or 133% */
+    color: #464547;
+}
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 83px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.btn--read {
+    border-radius: 18px;
+    margin-top: 20px;
+    padding: 5px 17px;
+    background: v.$blue-button-color;
+    border: none;
+    font-family: v.$oswald-font;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: v.$white-color;
+    text-transform: uppercase;
+    transition: .3s ease-in;    
+    transform-origin: center left;
+
+    &:hover {    
+        transform: rotate(13deg);
+    }
+}

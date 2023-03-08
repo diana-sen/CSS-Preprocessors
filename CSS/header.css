@@ -3,7 +3,8 @@
     height: 822px; 
 }
 
-.header-background, .header-animation-lines, .header-animation-dots {
+/* Animation styles */
+.header__background, .header__animation--lines, .header__animation--dots {
     position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,7 +13,7 @@
     height: 822px;
 }
 
-.header-background {
+.header__background {
     background-image: url("../assets/Desktop_Backgrounds_1920x1200_6.png");
 }
 
@@ -21,7 +22,7 @@
     to {opacity: 1;}
 }
 
-.header-animation-lines {
+.header__animation--lines {
     background-image: url("../assets/header-animation-lines-dots.png");
     animation: lines-appearing 2s cubic-bezier(0.5, -0.19, 1, 1) infinite alternate;
 }
@@ -31,10 +32,12 @@
     100% {transform: scale(1.07, 1.07); translate: -3%;}
 }
 
-.header-animation-dots {
+.header__animation--dots {
     background-image: url("../assets/header-animation-dots.png");
     animation: dotsMoving 2.5s ease-in-out infinite alternate;
 }
+
+/* End of animation styles */
 
 header{
     height: 20%;
@@ -42,43 +45,43 @@ header{
     display: flex;
     align-items: center;
     justify-content:center;
-    position: relative;
+    position: absolute;
 }
 
-.header-menu {
+.header-container {
     width: 100%;
     display:flex; 
     padding-left: 10%;
     align-items: center;
 }
 
-.header-menu a {
+.header-container a {
     font-family: var(--main-font-fam);
     font-style: normal;
     text-transform: uppercase;
     color: var(--white-color);
 }
 
-.title-project {
+.header-container__title {
     width: 20%;
 /*    align-self: flex-start; */
  
 }
 
-.title-project a {
+.header-container__title a {
     font-weight: var(--bolder-font-weight);
     font-size: 20px;
     line-height: 16px;
     letter-spacing: 0.1em;
 }
 
-.menu {
+.nav__menu {
     height: 22px; 
     width: 50%;
     padding-left: 5%;
     }
     
-.nav-list {
+.nav__list {
     display: flex;
     margin: 0;
     padding: 0;
@@ -102,14 +105,14 @@ a:hover {
     text-underline-offset: 6px;
 }
 
-.nav-list li {
+.nav__list li {
     flex-grow: 1;
     flex-shrink: 1;
 }
 
 
 @media only screen and (max-width: 768px) {
-    .menu {
+    .nav__menu {
         display: none;
     }
     /* Optional task */
@@ -117,7 +120,7 @@ a:hover {
         height: 13%;
     }
 
-    .header-menu{
+    .header-container{
         padding-left: 8%;
         padding-right: 8%;
         justify-content: space-between;
@@ -136,16 +139,16 @@ a:hover {
         margin-bottom: 6px;
     }
 
-    .header-background, .header-animation-lines, .header-animation-dots {
+    .header__background, .header__animation--lines, .header__animation--dots {
         background-position-x: right;
     }
 
-    .header-animation-lines {
+    .header__animation--lines {
         background-image: url("../assets/header-animation-lines-dots.png");
         animation: lines-appearing 2.5s cubic-bezier(0.5, -0.19, 1, 1) infinite alternate;
     }
         
-    .header-animation-dots {
+    .header__animation--dots {
         background-image: url("../assets/header-animation-dots.png");
         animation: dotsMoving 3s ease-in-out infinite alternate;
     }

@@ -1,5 +1,5 @@
 
-.learn-more {
+.learn {
     width: 100%;
     height: 666px;
     background: url("../assets/learn-more.jfif");
@@ -10,11 +10,11 @@
     justify-content: center;
 }
 
-.learn-more-block {
+.learn__block {
     text-align: center;
 }
 
-.btn-play {
+.learn__btn-play {
 
     height: 150px;
     width: 150px;
@@ -27,13 +27,13 @@
                 transform .8s;
 }
 
-.btn-play:hover {    
+.learn__btn-play:hover {    
     background-color: white;    
     color: var(--blue-button-color);
     transform: scale(0.95);
 }
 
-.play-icon{
+.learn__btn-play--icon{
     position: relative;
     font-size: 70px;
     width: 55px;
@@ -41,7 +41,7 @@
     left: 7px;
 }
 
-.learn-more-block h2 {
+.learn__block h2 {
     text-align: center;
     font-family: var(--oswald-font);
     font-style: normal;
@@ -51,7 +51,7 @@
     color: var(--white-color);
 }
 
-.learn-more-block h3 {
+.learn__block h3 {
     font-family: var(--main-font-fam);
     font-style: normal;
     font-weight: var(--regular-font-weight);

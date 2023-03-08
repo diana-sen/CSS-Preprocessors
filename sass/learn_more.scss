@@ -1,0 +1,62 @@
+@use 'variables' as v;
+.learn {
+    width: 100%;
+    height: 666px;
+    background: url("../assets/learn-more.jfif");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .learn__block {
+        text-align: center;
+
+        h2 {
+            text-align: center;
+            font-family: v.$oswald-font;
+            font-style: normal;
+            font-weight: v.$bolder-font-weight;
+            font-size: 48px;
+            line-height: 64px;
+            color: v.$white-color;
+        }
+
+        h3 {
+            font-family: v.$main-font-fam;
+            font-style: normal;
+            font-weight: v.$regular-font-weight;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            color: v.$white-color;
+        }
+    }
+}
+
+.learn__btn-play {
+
+    height: 150px;
+    width: 150px;
+    border: none;
+    border-radius: 50%;
+    background-color: v.$blue-button-color;
+    color: white;    
+    transition: background-color .8s ease-out,
+                color .4s,
+                transform .8s;
+    
+    &:hover {    
+        background-color: white;    
+        color: v.$blue-button-color;
+        transform: scale(0.95);
+    }
+
+    .learn__btn-play--icon{
+        position: relative;
+        font-size: 70px;
+        width: 55px;
+        height: 70px;
+        left: 7px;
+    }
+}

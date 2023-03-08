@@ -1,0 +1,23 @@
+/* scss styles */
+
+//Core Partials
+@use 'variables';
+@use 'normalize';
+
+
+//Import modules
+@use 'animation';
+@use 'header';
+@use 'hero';
+@use 'header_mobile';
+@use 'main';
+@use 'main_mobile';
+@use 'learn_more';
+@use 'footer';
+@use 'footer_mobile';
+
+body {  
+    margin: 0px;
+    padding: 0px;
+    background: #EEE;
+}
